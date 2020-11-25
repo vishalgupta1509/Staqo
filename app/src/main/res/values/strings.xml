@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">StaqoApp</string>
+    <string name="vertical_list">Vertical List</string>
+    <string name="horizontal_list">Horizontal List</string>
+    <string name="welcome_nto_nstaqo_app">Welcome \nto\nStaqo App</string>
+    <string name="show_vertical_list">Show Vertical List</string>
+    <string name="show_horizontal_list">Show Horizontal List</string>
+    <string name="no_user_list_found">No user list found</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="designed_and_developed_by_nvishal_gupta">Designed and developed by\nVishal Gupta</string>
+</resources>

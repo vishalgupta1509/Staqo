@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/selectionFragment">
+
+    <fragment
+        android:id="@+id/verticalListFragment"
+        android:name="com.staqoapp.appScreens.fragments.VerticalListFragment"
+        android:label="Vertical List"
+        tools:layout="@layout/vertical_list_fragment"/>
+    <fragment
+        android:id="@+id/horizontalListFragment"
+        android:name="com.staqoapp.appScreens.fragments.HorizontalListFragment"
+        android:label="Horizontal List"
+        tools:layout="@layout/fragment_horizontal_list"/>
+    <fragment
+        android:id="@+id/selectionFragment"
+        android:name="com.staqoapp.appScreens.fragments.SelectionFragment"
+        android:label="Select Screen"
+        tools:layout="@layout/fragment_selection">
+        <action
+            android:id="@+id/action_selectionFragment_to_horizontalListFragment"
+            app:destination="@id/horizontalListFragment" />
+        <action
+            android:id="@+id/action_selectionFragment_to_verticalListFragment"
+            app:destination="@id/verticalListFragment" />
+    </fragment>
+</navigation>
